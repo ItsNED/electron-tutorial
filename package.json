@@ -1,7 +1,13 @@
 {
   "name": "electron-tutorial",
   "version": "0.1.0",
+  "description": "Electron App",
+  "author": "ItsNED",
   "main": "public/electron.js",
+  "build": {
+    "appId": "com.itsned.electron-app"
+  },
+  "homepage": "./",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
